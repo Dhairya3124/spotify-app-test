@@ -55,7 +55,7 @@ app.get('/callback', (req, res) => {
 
       // Send a success message to the user.
       res.send(
-        'Login successful! You can now use the /search and /play endpoints.'
+        'Login successful! You can now use the /artists, /stop and /play endpoints.'
       );
 
       // Refresh the access token periodically before it expires.
